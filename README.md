@@ -1,4 +1,6 @@
-# Overview
+# Library Management System
+
+## Overview
 
 The Library Management System is like a computerized assistant for librarians. It helps them handle various tasks related to managing books in a library. 
 The system allows librarians to add new books, see what books are available, search for specific books, lend books to readers, take back borrowed books, 
@@ -34,9 +36,9 @@ The system is organized into different class files to keep the different functio
 ## Design Decisions
 
 - **Modularity:**
-- I chose to split the system into different parts, like adding books or handling borrowings. This way, it's like dealing with separate pieces, making it simpler for me to
-- fix one thing without messing up the rest. So, if I need to make changes down the road, I can focus on what needs attention without worrying about the whole system.
--  It just makes keeping things up-to-date a lot smoother.
+  <br>
+I chose to split the system into different parts, like adding books or handling borrowings. This way, it's like dealing with separate pieces, making it simpler for me to
+fix one thing without messing up the rest. So, if I need to make changes, I can focus on what needs attention without worrying about the whole system.
 
 ## Data Structures
 
@@ -58,10 +60,8 @@ The system follows specific steps to get things done:
 
 ## Challenges Faced
 
-We ran into a few difficulties:
-
-1. **Making Sure Input is Right:**  I faced the challenge of making sure librarians enter information accurately. It involved designing a system to prevent unintentional errors.
-2. **Dealing with Errors:** Creating ways to handle unexpected problems in the system was also challenging for me. I displayed descriptive error messages for the librarian.
+1. **Correct Input:**  I faced the challenge of making sure librarians enter information accurately. For this, I created separate methods to validate various inputs.
+2. **Dealing with Errors:** Creating ways to handle unexpected problems in the system was also challenging for me. For this, I displayed descriptive error messages for the librarian.
 
 ## Test Cases
 
